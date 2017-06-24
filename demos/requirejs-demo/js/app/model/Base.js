@@ -1,0 +1,1 @@
+define([],function(){function t(t){this.title=t}return t.prototype={getTitle:function(){return this.title}},t});
