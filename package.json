@@ -1,0 +1,22 @@
+{
+  "name": "jsconf-belgium-2017-talk",
+  "version": "1.0.0",
+  "description": "Slides and demos for my JSConf Belgium 2017 talk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArunMichaelDsouza/JSConf-belgium-2017-talk.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArunMichaelDsouza/JSConf-belgium-2017-talk/issues"
+  },
+  "homepage": "https://github.com/ArunMichaelDsouza/JSConf-belgium-2017-talk#readme",
+  "devDependencies": {
+    "browserify": "^14.4.0"
+  }
+}
