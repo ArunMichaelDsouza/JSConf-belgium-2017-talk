@@ -1,0 +1,14 @@
+{
+  "name": "browserify-demo",
+  "version": "1.0.0",
+  "description": "```javascript npm install -g browserify ```",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^14.4.0"
+  }
+}
