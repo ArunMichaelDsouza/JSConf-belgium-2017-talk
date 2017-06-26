@@ -2,9 +2,9 @@ const webpack = require('webpack'),
 	CompressionPlugin = require('compression-webpack-plugin');
 
 module.exports = {
-	entry: './js/src/app.js',
+	entry: './src/js/app.js',
 	output: {
-		filename: './js/build/bundle.js'
+		filename: './build/bundle.js'
 	},
 	module: {
 		loaders: [

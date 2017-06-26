@@ -1,9 +1,9 @@
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
-	entry: './js/src/app.js',
+	entry: './src/js/app.js',
 	output: {
-		filename: './js/build/bundle.js'
+		filename: './build/bundle.js'
 	},
 	module: {
 		loaders: [
