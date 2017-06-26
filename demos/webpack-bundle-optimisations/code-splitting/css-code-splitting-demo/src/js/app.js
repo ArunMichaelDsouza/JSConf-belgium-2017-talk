@@ -7,6 +7,7 @@ import App from './components/App.jsx';
 import users from './initUsers';
 import thunk from 'redux-thunk';
 import logger from './middleware/logger';
+import '../css/styles.css';
 
 const initialState = { users: { all: [], usersFromApi: [], selected: null } };
 
