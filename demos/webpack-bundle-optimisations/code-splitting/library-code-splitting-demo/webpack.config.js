@@ -23,7 +23,10 @@ module.exports = {
 	// plugins: [
 	// 	new webpack.optimize.CommonsChunkPlugin({
 	// 		name: 'vendor',
-	// 		minChunks: 2
+	// 		minChunks: 2,
+	//		minChunks: function (module) {
+	//			return module.context && module.context.indexOf('node_modules') !== -1;
+	//		}
 	// 	})
 	// ]
 };
