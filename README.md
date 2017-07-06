@@ -16,7 +16,7 @@ This talk will walk everyone through the concept and practical usage of JavaScri
 This talk will also cover essential differences between task runners and bundlers with focus on advanced optimisation techniques like Tree shaking and Code splitting.
 
 ## Slides
-PDF slides available on GitHub - 
+PDF version available on GitHub - 
 [GitHub link](http://bit.ly/JSConf-Belgium-2017-slides)
 
 Also on SlideShare - 
