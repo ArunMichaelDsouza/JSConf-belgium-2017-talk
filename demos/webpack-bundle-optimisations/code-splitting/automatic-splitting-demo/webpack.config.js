@@ -3,7 +3,7 @@ const webpack = require('webpack');
 module.exports = {
 	entry: './src/js/app.js',
 	output: {
-		filename: './build/bundle.js'
+		filename: './build/[name].js'
 	},
 	module: {
 		loaders: [
@@ -15,14 +15,5 @@ module.exports = {
 				}
 			}
 		]
-	},
-	// plugins: [
-	// 	new webpack.optimize.CommonsChunkPlugin({
-	// 		name: 'vendor',
-	// 		minChunks: 2,
-	//		minChunks: function (module) {
-	//			return module.context && module.context.indexOf('node_modules') !== -1;
-	//		}
-	// 	})
-	// ]
+	}
 };

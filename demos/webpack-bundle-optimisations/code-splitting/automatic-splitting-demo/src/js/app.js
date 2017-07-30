@@ -1,5 +1,7 @@
 import index from './index'; // Loaded synchronously
 
-require.ensure(['./about.js'], function (require) {
-  require('./about'); // Loaded asynchronously
-});
+setTimeout(() => {
+  require.ensure(['./about.js'], function (require) {
+    require('./about'); // Loaded asynchronously
+  });
+}, 4000);
