@@ -13,7 +13,7 @@ module.exports = {
 				query: {
 					presets: [[
 						'es2015', 
-						//{ modules: false }
+						{ modules: false }
 					]]
 				}
 			}
