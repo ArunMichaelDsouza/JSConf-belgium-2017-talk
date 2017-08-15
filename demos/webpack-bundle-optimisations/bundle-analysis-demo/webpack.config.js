@@ -1,4 +1,5 @@
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin,
+	webpack = require('webpack');
 
 module.exports = {
 	entry: './src/js/app.js',
@@ -17,6 +18,7 @@ module.exports = {
 		]
 	},
 	plugins: [
+		new webpack.optimize.UglifyJsPlugin(), // Add UglifyJS plugin to correctly show parsed size
 		new BundleAnalyzerPlugin()
 	]
 };
