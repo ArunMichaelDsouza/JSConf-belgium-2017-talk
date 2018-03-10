@@ -17,14 +17,14 @@ This talk will also cover essential differences between task runners and bundler
 
 ## Slides
 PDF version available on GitHub - 
-[GitHub link](http://bit.ly/JSConf-Belgium-2017-slides)
+[Link](http://bit.ly/JSConf-Belgium-2017-slides)
 
-Also on SlideShare - 
-[SlideShare link](http://bit.ly/2sRL09X)
+Also on Speaker Deck - 
+[Link](https://speakerdeck.com/arunmichaeldsouza/the-era-of-module-bundlers-jsconf-belgium-2017)
 
 ## Talk video
 Talk video available on YouTube - 
-[Video link](http://bit.ly/2sKN8Fl)
+[Link](http://bit.ly/2sKN8Fl)
 
 ## License
 MIT License
